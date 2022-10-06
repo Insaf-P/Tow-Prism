@@ -1,0 +1,17 @@
+/* We used the width for developing 1920px max screen size  */
+
+/* Latest Desktop Virsion */
+@media only screen and (max-width: 1600px) and (min-width: 1440px){
+    .heading-1{
+        font-weight: 600;
+        font-size: 65px;
+        line-height: 67px;
+    }
+    .hero-content-box {
+        margin-left: 120px;
+    }
+    .primary-btn{
+        padding: 10px 46px;
+        font-size: 18px;
+    }
+}
