@@ -1,17 +1,131 @@
-/* We used the width for developing 1920px max screen size  */
+@media only screen and (max-width: 1400px) {
+	#recruitment-and-skilling {
+		padding: 0 85px;
+	}
+}
 
-/* Latest Desktop Virsion */
-@media only screen and (max-width: 1600px) and (min-width: 1440px){
-    .heading-1{
-        font-weight: 600;
-        font-size: 65px;
-        line-height: 67px;
-    }
-    .hero-content-box {
-        margin-left: 120px;
-    }
-    .primary-btn{
-        padding: 10px 46px;
-        font-size: 18px;
-    }
+@media only screen and (max-width: 1024px) {
+	#about-section {
+		padding: 40px 60px;
+	}
+	.nav-item {
+		padding: 0 17px;
+	}
+	.heading-1 {
+		font-size: 54px;
+	}
+	.hero-content-box p {
+		font-size: 16px;
+		line-height: 27px;
+	}
+	.about-points {
+		margin-left: 33px;
+		padding: 24px 0;
+	}
+	#why-2-prism .why-2-prism-overlay {
+		padding: 40px 0px;
+		margin-left: 50px;
+	}
+	#technology-consulting {
+		padding: 40px 60px;
+	}
+	#business-development-consulting {
+		padding: 40px 60px;
+	}
+	.lightgray-bg.d-flex.align-items-center.fw-normal.py-2.px-4.col-10 {
+		width: 178px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.col-3.text-center.shadow.px-3.py-5.mb-5.bg-body.rounded {
+		width: 200px;
+	}
+	.recruitment-and-skilling {
+		padding: 0px !important;
+	}
+	#recruitment-and-skilling {
+		padding: 0 55px;
+	}
+	.recruitment-circle-inner {
+		width: 340px;
+		height: 282px;
+		padding: 34px;
+	}
+	.recruitment-circle-outter {
+		width: 346px;
+		height: 345px;
+	}
+	.recruitment-circle-inner .content-5 {
+		font-size: 16px;
+	}
+	#recruitment-and-skilling .navbar-nav li {
+		font-size: 14px;
+		line-height: 188%;
+	}
+	#our-experience .our-experience-overlay {
+		padding: 60px 85px;
+		margin-left: 40px;
+	}
+	.testimonial-img {
+		height: 202px;
+		width: 152px;
+	}
+	#our-clientele-section {
+		padding: 60px 30px;
+	}
+	#contactussection {
+		padding: 60px 30px;
+	}
+	#contactussection p.content-4.fw-normal {
+		margin-bottom: 20px !important;
+	}
+	#contactussection .map-section {
+		margin-top: 40px;
+	}
+	footer {
+		background-color: var(--third-color);
+		padding: 65px 44px;
+		padding-bottom: 35px;
+	}
+}
+
+/* Tablet View */
+
+@media only screen and (max-width: 768px) {
+	.hero-content-box {
+		margin-left: 70px;
+	}
+	.heading-1 {
+		font-size: 44px;
+	}
+	.about-intro {
+		padding-right: 20px;
+	}
+	#about-section {
+		padding: 40px 30px;
+	}
+	.why-prism-points.d-flex.align-items-center.py-4 {
+		padding-right: 0px;
+	}
+	#why-2-prism .why-2-prism-overlay {
+		padding: 40px 43px;
+		margin-left: 0;
+	}
+	#technology-consulting {
+		padding: 40px 30px;
+	}
+	.heading-2 {
+		font-size: 20px;
+		line-height: 33px;
+	}
+	#technology-consulting .shadow h4 {
+		font-size: 18px;
+	}
+	#technology-consulting .content-box {
+		padding: 14px;
+	}
+	.domain-and-expertise {
+		font-size: 14px;
+		line-height: 165%;
+	}
 }
