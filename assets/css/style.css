@@ -22,7 +22,9 @@
 }
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
+
 /* Layout */
 
 .container {
@@ -687,7 +689,7 @@ a.dropdown-item {
 
 	color: #2d2d2d;
 
-	opacity: 0.5;
+	opacity: 0.5 !important;
 }
 
 .consulting-number.gradient-bg.d-flex.align-items-center.justify-content-center.white-color.heading-4.fw-normal.px-2.col-2 {
