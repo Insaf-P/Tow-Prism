@@ -130,6 +130,8 @@
 	}
 }
 
+/* Mobile  */
+
 @media only screen and (max-width: 524px) {
 	#hero-section #carouselSlider {
 		display: none;
@@ -244,5 +246,10 @@
 		line-height: 153%;
 		padding-right: 0px;
 		text-align: center;
+	}
+	.shadow img {
+		padding: 5px;
+		display: block;
+		margin: 0 auto;
 	}
 }
