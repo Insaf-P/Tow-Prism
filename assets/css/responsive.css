@@ -231,7 +231,11 @@
 		font-size: 16px;
 	}
 	#business-development-consulting {
-		padding: 0px 20px;
+		padding: 0px 0px;
+	}
+
+	#business-development-consulting  ul.d-flex.flex-wrap.col-12 {
+		padding: 0 !important;
 	}
 	#business-development-consulting .heading-6 {
 		font-size: 22px;
@@ -251,5 +255,17 @@
 		padding: 5px;
 		display: block;
 		margin: 0 auto;
+	}
+	.lightgray-bg.d-flex.align-items-center.fw-normal.py-2.px-4.col-10 {
+		width: 126px;
+		font-size: 10px;
+		line-height: 14px;
+		padding: 6px !important;
+	}
+	#business-development-consulting .heading-4 {
+		font-size: 14px;
+		line-height: 153%;
+		padding-right: 0px;
+		text-align: center;
 	}
 }
