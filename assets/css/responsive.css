@@ -117,6 +117,7 @@
 	.heading-2 {
 		font-size: 20px;
 		line-height: 33px;
+		width: 100%;
 	}
 	#technology-consulting .shadow h4 {
 		font-size: 18px;
@@ -266,6 +267,29 @@
 		font-size: 14px;
 		line-height: 153%;
 		padding-right: 0px;
+		text-align: center;
+	}
+	.heading-4{
+		font-size: 22px;
+	}
+	#recruitment-and-skilling {
+		padding: 40px 10px;
+	}
+	#our-experience .our-experience-overlay {
+		padding: 40px 10px;
+		margin-left: 0px;
+	}
+	#contactussection {
+		padding: 40px 10px;
+	}
+	.contact-us-form{
+		padding: 20px 20px !important;
+	}
+	.col-1.pt-5.d-flex.justify-content-center.align-items-center.flex-column {
+		display: none !important;
+	}
+	h4.heading-3.secondary-color.mb-5 {
+		font-size: 22px;
 		text-align: center;
 	}
 }

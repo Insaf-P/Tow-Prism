@@ -35,6 +35,23 @@ var swiper = new Swiper('.Swiper-client-slider', {
 	loop: true,
 	slidesPerView: 5,
 	spaceBetween: 40,
+	breakpoints: {
+		// when window width is >= 320px
+		320: {
+			slidesPerView: 1,
+			spaceBetween: 20,
+		},
+		// when window width is >= 768px
+		768: {
+			slidesPerView: 2,
+			spaceBetween: 30,
+		},
+		// when window width is >= 1000px
+		1000: {
+			slidesPerView: 5,
+			spaceBetween: 40,
+		},
+	},
 })
 
 var swiper = new Swiper('.Swiper-testimonial-slider', {
