@@ -727,9 +727,11 @@ a.dropdown-item {
 	
 }
 
-#recruitment-and-skilling .heading-4 {
+#recruitment-and-skilling h4.heading-4.secondary-color {
 	background-color: #14D1E0;
 	color: #fff;
+	padding: 10px;
+    border-radius: 5px;
 }
 .round-box-wrapper {
 	margin-top: 40px;
@@ -765,6 +767,8 @@ a.dropdown-item {
 .col-3.text-center.shadow.px-3.py-5.mb-5.bg-body.rounded {
 	width: 286px;
 	margin: 0 !important;
+    padding: 25px 5px !important;
+    padding-top: 5px !important;
 }
 #recruitment-and-skilling .navbar-nav li {
 	font-style: normal;
