@@ -292,4 +292,42 @@
 		font-size: 22px;
 		text-align: center;
 	}
+	#our-clientele-section {
+		padding: 40px 10px;
+	}
+	#our-clientele-section h1.heading-2.text-center{
+		font-size: 24px;
+	}
+	.col-12.py-5.wow.fadeInUp.animated {
+		padding: 35px !important;
+	}
+	#our-experience h2.heading-2.text-center.white-color.pb-5{
+		font-size: 24px;
+		line-height: 38px;
+	}
+	#our-experience h4.heading-3.white-color{
+		font-size: 24px;
+	}
+	p.content-1.white-color{
+		font-size: 14px;
+		line-height: 23px;
+	}
+	#testimonial-section .col-12.py-5.mt-5.overflow-hidden {
+		padding-top: 40px !important;
+		margin-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	#testimonial-section h1.heading-2.text-center{
+		font-size: 24px;
+		
+	}
+	label.form-check-label {
+		font-size: 10px;
+	}
+	#contactussection p.content-4.fw-normal {
+		margin-bottom: 20px !important;
+		font-size: 14px;
+		line-height: 26px;
+	}
+	
 }
