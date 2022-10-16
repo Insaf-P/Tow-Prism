@@ -139,7 +139,7 @@
 	}
 	.header {
 		margin: 20px;
-		width: calc(100% - 10px);
+		width: calc(100% - 40px);
 	}
 	.fixed-header {
 		margin: 0px !important;
