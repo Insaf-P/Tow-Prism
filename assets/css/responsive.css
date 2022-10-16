@@ -134,9 +134,9 @@
 /* Mobile  */
 
 @media only screen and (max-width: 524px) {
-	#hero-section #carouselSlider {
+	/* #hero-section #carouselSlider {
 		display: none;
-	}
+	} */
 	.header {
 		margin: 20px;
 		width: calc(100% - 40px);
@@ -438,5 +438,18 @@
 	}
 	footer {
 		padding-bottom: 20px !important;
+	}
+	#hero-section #carouselSlider {
+		height: calc(100vh + -128px);
+		margin-top: 1px;
+	}
+	.hero-content-box {
+		position: relative;
+	}
+	.d-flex.align-items-center.vh-100 {
+		display: block !important;
+	}
+	.hero-content-box {
+		transform: translateY(0%);
 	}
 }
