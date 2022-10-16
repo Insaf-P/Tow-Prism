@@ -724,14 +724,13 @@ a.dropdown-item {
 	background-position: left;
 	padding: 0px 90px;
 	padding-bottom: 40px;
-	
 }
 
 #recruitment-and-skilling h4.heading-4.secondary-color {
-	background-color: #14D1E0;
+	background-color: #14d1e0;
 	color: #fff;
 	padding: 10px;
-    border-radius: 5px;
+	border-radius: 5px;
 }
 .round-box-wrapper {
 	margin-top: 40px;
@@ -767,8 +766,8 @@ a.dropdown-item {
 .col-3.text-center.shadow.px-3.py-5.mb-5.bg-body.rounded {
 	width: 286px;
 	margin: 0 !important;
-    padding: 25px 5px !important;
-    padding-top: 5px !important;
+	padding: 25px 5px !important;
+	padding-top: 5px !important;
 }
 #recruitment-and-skilling .navbar-nav li {
 	font-style: normal;
@@ -1157,7 +1156,7 @@ footer {
 footer a.white-color.fw-600.text-decoration-none {
 	font-size: 14px;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 14px;
 	line-height: 150%;
 	display: flex;
@@ -1181,4 +1180,15 @@ footer button.btn.black-bg.white-color.fw-600.mb-3 {
 footer button.btn.black-bg.white-color.fw-600.mb-3:hover {
 	background: #000;
 	color: #fff;
+}
+footer h5 {
+	color: #fff;
+	margin-bottom: 20px;
+}
+.d-flex.social-media-icon.justify-content-end {
+	justify-content: flex-start !important;
+	margin-top: 20px;
+}
+p.white-color.mobile {
+	display: none;
 }

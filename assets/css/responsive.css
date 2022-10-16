@@ -235,7 +235,7 @@
 		padding: 0px 0px;
 	}
 
-	#business-development-consulting  ul.d-flex.flex-wrap.col-12 {
+	#business-development-consulting ul.d-flex.flex-wrap.col-12 {
 		padding: 0 !important;
 	}
 	#business-development-consulting .heading-6 {
@@ -269,7 +269,7 @@
 		padding-right: 0px;
 		text-align: center;
 	}
-	.heading-4{
+	.heading-4 {
 		font-size: 22px;
 	}
 	#recruitment-and-skilling {
@@ -282,7 +282,7 @@
 	#contactussection {
 		padding: 40px 10px;
 	}
-	.contact-us-form{
+	.contact-us-form {
 		padding: 20px 20px !important;
 	}
 	.col-1.pt-5.d-flex.justify-content-center.align-items-center.flex-column {
@@ -295,20 +295,20 @@
 	#our-clientele-section {
 		padding: 40px 10px;
 	}
-	#our-clientele-section h1.heading-2.text-center{
+	#our-clientele-section h1.heading-2.text-center {
 		font-size: 24px;
 	}
 	.col-12.py-5.wow.fadeInUp.animated {
 		padding: 35px !important;
 	}
-	#our-experience h2.heading-2.text-center.white-color.pb-5{
+	#our-experience h2.heading-2.text-center.white-color.pb-5 {
 		font-size: 24px;
 		line-height: 38px;
 	}
-	#our-experience h4.heading-3.white-color{
+	#our-experience h4.heading-3.white-color {
 		font-size: 24px;
 	}
-	p.content-1.white-color{
+	p.content-1.white-color {
 		font-size: 14px;
 		line-height: 23px;
 	}
@@ -317,9 +317,8 @@
 		margin-top: 0px !important;
 		padding-bottom: 0px !important;
 	}
-	#testimonial-section h1.heading-2.text-center{
+	#testimonial-section h1.heading-2.text-center {
 		font-size: 24px;
-		
 	}
 	label.form-check-label {
 		font-size: 10px;
@@ -329,5 +328,115 @@
 		font-size: 14px;
 		line-height: 26px;
 	}
-	
+	.recruitment-circle-outter {
+		width: 300px;
+		height: 300px;
+	}
+	.recruitment-circle-inner {
+		width: 250px;
+		height: 250px;
+		padding: 25px;
+	}
+	.col-3.text-center.shadow.px-3.py-5.mb-5.bg-body.rounded {
+		width: 200px;
+		margin-bottom: 55px !important;
+		position: relative;
+	}
+	.recruitment-line-blackdot-one:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		background-color: #000;
+		height: 30px;
+		width: 30px;
+		transform: translateX(-115px) translateY(92.5px);
+		border-radius: 50%;
+		/* bottom: 0; */
+	}
+	.recruitment-line-blackdot-two:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		background-color: #000;
+		height: 30px;
+		width: 30px;
+		transform: translateX(-116px) translateY(150px);
+		border-radius: 50%;
+	}
+	#recruitment-and-skilling {
+		position: relative;
+	}
+	.col-3.text-center.shadow.px-3.py-5.mb-5.bg-body.rounded.wow.fadeInRight.animated {
+		margin-top: 50px !important;
+		margin-bottom: 0 !important;
+	}
+	.col-1.recruitment-line-left {
+		background: var(--lightprimary-color);
+		height: 3px;
+		position: absolute;
+		/* transform: translate(0px, -159px); */
+		transform: rotate(90deg);
+		top: 37%;
+		width: 55px !important;
+		z-index: 1;
+	}
+	.col-1.recruitment-line-right {
+		background: var(--lightprimary-color);
+		height: 3px;
+		position: absolute;
+		z-index: 1;
+	}
+	.col-1.recruitment-line-right {
+		background: var(--lightprimary-color);
+		height: 3px;
+		position: absolute;
+		bottom: 37%;
+		transform: rotate(90deg);
+		width: 55px !important;
+	}
+	.recruitment-line-blackdot-three:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		background-color: #000;
+		height: 30px;
+		width: 30px;
+		transform: translateX(-165px) translateY(130px);
+		border-radius: 50%;
+	}
+	.recruitment-line-blackdot-four:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		background-color: #000;
+		height: 30px;
+		width: 30px;
+		transform: translateX(-165px) translateY(188.5px);
+		border-radius: 50%;
+	}
+	.recruitment-circle-inner .content-5 {
+		font-size: 15px;
+	}
+	.col-12.col-md-3.d-flex.justify-content-center,
+	.col-12.col-md-2.d-flex.justify-content-center {
+		justify-content: flex-start !important;
+	}
+	p.white-color.mobile {
+		display: block;
+		margin-top: 40px;
+	}
+	p.white-color.desktop {
+		display: none;
+	}
+	footer h5 {
+		color: #fff;
+		margin-bottom: 20px;
+		margin-top: 15px;
+	}
+	p.content-4.white-color {
+		margin-top: 35px;
+	}
+	footer {
+		padding-bottom: 20px !important;
+	}
 }
