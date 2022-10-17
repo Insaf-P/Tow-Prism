@@ -451,6 +451,7 @@
 	}
 	.hero-content-box {
 		transform: translateY(70%);
+		padding: 10px;
 	}
 	.col-md-6.col-12.overflow-hidden.vh-100.position-relative {
 		margin-top: 200px;
