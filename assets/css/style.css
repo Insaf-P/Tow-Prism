@@ -289,12 +289,12 @@ a.dropdown-item {
 	content: '';
 	position: absolute;
 	width: 100%;
-	background: linear-gradient(transparent 50%, black 0%);
+	background: linear-gradient(transparent 0%, #747474 0%);
 	z-index: -1;
-	height: 25px;
+	height: 100%;
 	transition: 5s;
-	left: 50%;
-	animation: loaderrotatebefore linear 1s 5s 1;
+	left: 0%;
+	/* animation: loaderrotatebefore linear 1s 5s 1; */
 }
 /* .carousel-number-innerlay:after {
   transform-origin: 100% 50% 0;
