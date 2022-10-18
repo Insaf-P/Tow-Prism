@@ -17,7 +17,7 @@
 	--white-color: #ffffff;
 	--black-color: #0a0a0a;
 	--darkgray-color: #888888;
-	--gray-color: #33c9df78;
+	--gray-color: #33c9df;
 	--lightgray: #f3f3f3;
 }
 html {
@@ -262,8 +262,7 @@ a.dropdown-item {
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
-	box-shadow: -18px 19px 10px rgba(0, 0, 0, 0.01), -10px 10px 9px rgba(0, 0, 0, 0.05), -5px 5px 6px rgba(0, 0, 0, 0.09),
-		-1px 1px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+	box-shadow:2px 3px 15px -2px #0000007a;
 }
 .carousel-number-innerlay {
 	height: 90px;
@@ -685,7 +684,7 @@ a.dropdown-item {
 
 	color: var(--gray-color);
 
-	opacity: 0.5 !important;
+	/* opacity: 0.5 !important; */
 }
 
 .consulting-number.gradient-bg.d-flex.align-items-center.justify-content-center.white-color.heading-4.fw-normal.px-2.col-2 {
