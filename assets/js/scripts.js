@@ -1,17 +1,37 @@
 //Initialize Swiper
-
+var p = 0;
 function showCount(n) {
 	var count = $('.carousel-inner .carousel-item').length
-	$('.carousel-number-counting').html(n + '/' + count)
+	$('#circle-counting').html(n + '/' + count);
+
+	
 }
 
+const myCarouselElement = document.querySelector('#carouselSlider');
+
+myCarouselElement.addEventListener('slide.bs.carousel', function (n) {
+	console.log(n.from);
+	$("#circle-loading").css({"animation":"circleLoader 5s 0s linear 1"});
+
+	if(p != n){
+
+		setTimeout(()=>{
+			$("#circle-loading").css({"animation":""});
+		},5000);
+
+		p = n;
+	}
+
+})
+
 window.onload = () => {
+
 	setInterval(() => {
 		$('.carousel-inner .carousel-item').each((i, n) => {
 			// console.log(n);
 			if ($(n).hasClass('active')) {
-				i = i + 1
-				showCount(i)
+				i = i + 1;
+				showCount(i);
 				$('.carousel-indicators [data-bs-target]').removeClass('active')
 				$('.slide-' + i).addClass('active')
 			}
