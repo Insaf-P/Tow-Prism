@@ -440,7 +440,7 @@
 		padding-bottom: 20px !important;
 	}
 	#hero-section #carouselSlider {
-		height: calc(100vh + -128px);
+		height: calc(100vh + -300px);
 		margin-top: 1px;
 	}
 	.hero-content-box {
@@ -450,6 +450,17 @@
 		display: block !important;
 	}
 	.hero-content-box {
-		transform: translateY(0%);
+		transform: translateY(70%);
+		padding: 10px;
+	}
+	.col-md-6.col-12.overflow-hidden.vh-100.position-relative {
+		margin-top: 200px;
+	}
+	#about-section {
+		padding: 30px 20px;
+		margin-top: 110px;
+	}
+	.carousel-numbering {
+		bottom: 350px;
 	}
 }
