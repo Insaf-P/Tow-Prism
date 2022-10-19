@@ -266,7 +266,6 @@ a.dropdown-item {
 }
 .carousel-numbering {
 	position: absolute;
-<<<<<<< HEAD
     bottom: 215px;
     background: transparent;
     height: 150px;
@@ -278,20 +277,6 @@ a.dropdown-item {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-=======
-	bottom: 215px;
-	background: #fff;
-	height: 100px;
-	width: 100px;
-	left: 7px;
-	z-index: 1;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
-	box-shadow:2px 3px 15px -2px #0000007a;
->>>>>>> b9e09c9138ecc1afbc0ca7e764f7e38ba80042dd
 }
 .carousel-number-innerlay {
 	height: 90px;
