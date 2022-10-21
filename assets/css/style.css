@@ -130,16 +130,16 @@ html {
 	-webkit-transition: all 200ms linear;
 	transition: all 200ms linear;
 }
-#circle-loading{
+#circle-loading {
 	stroke-dashoffset: 329;
-    stroke-dasharray: 329;
+	stroke-dasharray: 329;
 }
 @keyframes circleLoader {
-	0%{
+	0% {
 		stroke-dashoffset: 329;
 		stroke-dasharray: 329;
 	}
-	100%{
+	100% {
 		stroke-dashoffset: 72;
 		stroke-dasharray: 329;
 	}
@@ -266,17 +266,17 @@ a.dropdown-item {
 }
 .carousel-numbering {
 	position: absolute;
-    bottom: 215px;
-    background: transparent;
-    height: 150px;
-    width: 150px;
-    left: 7px;
-    z-index: 1;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+	bottom: 215px;
+	background: transparent;
+	height: 150px;
+	width: 150px;
+	left: 7px;
+	z-index: 1;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
 }
 .carousel-number-innerlay {
 	height: 90px;
@@ -515,6 +515,10 @@ a.dropdown-item {
 .team-member {
 	position: relative;
 	margin-top: 15px;
+	padding-bottom: 0 !important;
+}
+.team-member img {
+	width: 70%;
 }
 .team-member h4 {
 	font-style: normal;
@@ -581,6 +585,7 @@ a.dropdown-item {
 }
 .why-prism-points.d-flex.align-items-center.py-4 {
 	padding-right: 150px;
+	padding: 0 !important;
 }
 
 #why-2-prism .why-2-prism-overlay {
