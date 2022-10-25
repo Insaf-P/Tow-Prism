@@ -1,7 +1,7 @@
 //Initialize Swiper
 var p = 0;
 function showCount(n) {
-	var count = $('.carousel-inner .carousel-item').length
+	var count = $('#carouselSlider .carousel-inner .carousel-item').length
 	$('#circle-counting').html(n + '/' + count);
 
 	
