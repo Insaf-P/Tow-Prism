@@ -371,11 +371,12 @@ a.dropdown-item {
 }
 
 .hero-content-box {
-	width: 50%;
+	/* width: 50%; */
 	margin-left: 200px;
 	position: absolute;
 	transform: translateY(-60%);
 	top: 60%;
+	margin-top: 30%;
 }
 
 .hero-content-box p {
@@ -494,7 +495,7 @@ a.dropdown-item {
 	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 15px !important;
 	line-height: 33px;
 	margin: 21px 0px;
 }
@@ -846,7 +847,7 @@ a.dropdown-item {
 	justify-content: center;
 	padding: 60px;
 	height: 380px;
-	width: 380px;
+	width: 400px;
 	text-align: center;
 	box-shadow: 51px 49px 28px rgba(108, 99, 255, 0.01), 29px 28px 24px rgba(108, 99, 255, 0.05),
 		13px 12px 18px rgba(108, 99, 255, 0.09), 3px 3px 10px rgba(108, 99, 255, 0.1), 0px 0px 0px rgba(108, 99, 255, 0.1) !important;
@@ -1343,4 +1344,19 @@ p.white-color.mobile {
 
 .pull-up {
 	z-index: 1000;
+}
+
+.sub-quote {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 150%;
+	/* or 30px */
+	width: 300px;
+	text-align: center;
+
+	/* neutral gray */
+
+	color: #2D2D2D;
 }
