@@ -363,11 +363,13 @@ a.dropdown-item {
 	font-size: 16px;
 	font-weight: 500;
 }
+
 .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: visible;
+	position: relative;
+	width: 100%;
+	overflow: visible;
 }
+
 .hero-content-box {
 	width: 50%;
 	margin-left: 115px;
@@ -1339,15 +1341,6 @@ p.white-color.mobile {
 	display: none;
 }
 
-<<<<<<< HEAD
-=======
-
 .pull-up {
-	z-index: 100;
+	z-index: 1000;
 }
-
-.hover-button:hover {
-	background-color: #0067C2;
-	color: #ffffff
-}
->>>>>>> 7a25542bd73efbec22db595e4e8ee34ea74ea239
