@@ -1344,8 +1344,3 @@ p.white-color.mobile {
 .pull-up {
 	z-index: 1000;
 }
-
-li:hover {
-	color: #fd7e14;
-
-}
