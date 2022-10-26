@@ -740,7 +740,7 @@ a.dropdown-item {
 	font-size: 20px;
 	line-height: 186%;
 	color: #737373;
-	padding-right: 94px;
+
 }
 
 #business-development-consulting .content-3 {
@@ -761,7 +761,7 @@ a.dropdown-item {
 	font-size: 16px;
 	line-height: 175.5%;
 
-	text-align: center;
+
 
 	color: #2d2d2d;
 }
@@ -1343,4 +1343,9 @@ p.white-color.mobile {
 
 .pull-up {
 	z-index: 1000;
+}
+
+li:hover {
+	color: #fd7e14;
+
 }
