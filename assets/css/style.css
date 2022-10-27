@@ -371,20 +371,11 @@ a.dropdown-item {
 }
 
 .hero-content-box {
-<<<<<<< HEAD
 	width: 90%;
 	margin-left: 115px;
 	position: absolute;
 	transform: translateY(-40%);
 	top: 40%;
-=======
-	/* width: 50%; */
-	margin-left: 200px;
-	position: absolute;
-	transform: translateY(-60%);
-	top: 60%;
-	margin-top: 30%;
->>>>>>> 8142a332e974a380130c860fb153d4968752999b
 }
 
 .hero-content-box p {
@@ -749,7 +740,6 @@ a.dropdown-item {
 	font-size: 20px;
 	line-height: 186%;
 	color: #737373;
-
 }
 
 #business-development-consulting .content-3 {
@@ -769,8 +759,6 @@ a.dropdown-item {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 175.5%;
-
-
 
 	color: #2d2d2d;
 }
@@ -1366,5 +1354,5 @@ p.white-color.mobile {
 
 	/* neutral gray */
 
-	color: #2D2D2D;
+	color: #2d2d2d;
 }
