@@ -289,11 +289,11 @@ a.dropdown-item {
 
 .carousel-numbering {
 	position: absolute;
-	bottom: 215px;
+	bottom: 180px;
 	background: transparent;
 	height: 150px;
 	width: 150px;
-	left: 7px;
+	left: -27px;
 	z-index: 1;
 	border-radius: 50%;
 	display: flex;
@@ -369,11 +369,11 @@ a.dropdown-item {
     overflow: visible;
 }
 .hero-content-box {
-	width: 50%;
+	width: 90%;
 	margin-left: 115px;
 	position: absolute;
-	transform: translateY(-60%);
-	top: 60%;
+	transform: translateY(-40%);
+	top: 40%;
 }
 
 .hero-content-box p {

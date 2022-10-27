@@ -453,14 +453,17 @@
 		transform: translateY(70%);
 		padding: 10px;
 	}
-	.col-md-6.col-12.overflow-hidden.vh-100.position-relative {
+	/* .col-md-6.col-12.overflow-hidden.vh-100.position-relative {
 		margin-top: 200px;
-	}
+	} */
 	#about-section {
 		padding: 30px 20px;
 		margin-top: 110px;
 	}
 	.carousel-numbering {
 		bottom: 350px;
+	}
+	.team-member img {
+		width: 100%;
 	}
 }
