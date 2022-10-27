@@ -727,7 +727,7 @@ a.dropdown-item {
 	background-size: contain;
 	background-position: right bottom;
 	padding: 80px 115px;
-	padding-top: 0px;
+	/* padding-top: 0px; */
 }
 
 .consulting-number {
@@ -818,8 +818,8 @@ a.dropdown-item {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: left;
-	padding: 0px 90px;
-	padding-bottom: 40px;
+	padding: 80px 90px;
+	/* padding-bottom: 40px; */
 }
 
 #recruitment-and-skilling h4.heading-4.secondary-color {
