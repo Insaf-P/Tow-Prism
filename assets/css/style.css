@@ -577,7 +577,7 @@ a.dropdown-item {
 
 .about-points {
 	margin-left: 100px;
-	padding: 28px 0;
+	/* padding: 28px 0; */
 }
 
 .about-points .content-1 {
@@ -892,8 +892,8 @@ a.dropdown-item {
 
 .recruitment-circle-inner .content-5 {
 	font-style: normal;
-	font-weight: 500;
-	font-size: 20px;
+	font-weight: 300;
+	font-size: 17px;
 	line-height: 150%;
 	text-align: center;
 
@@ -1368,6 +1368,19 @@ p.white-color.mobile {
 }
 
 
-a{
+a {
 	text-decoration: none;
+}
+
+.about-content {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 275%;
+	/* or 38px */
+}
+
+.slider-paragraph{
+	font-size: 18px !important;
 }
