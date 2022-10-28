@@ -8,7 +8,6 @@ function showCount(n) {
 const myCarouselElement = document.querySelector('#carouselSlider')
 
 myCarouselElement.addEventListener('slide.bs.carousel', function (n) {
-	console.log(n.from)
 	$('#circle-loading').css({ animation: 'circleLoader 5s 0s linear 1' })
 
 	if (p != n) {
@@ -27,7 +26,6 @@ window.onload = () => {
 			if ($(n).hasClass('active')) {
 				m = i + 1
 				$('#carouselSlider-text .carousel-item:nth-child(' + m + ')').css({ display: 'block' })
-				console.log(m)
 				showCount(m)
 				$('.carousel-indicators [data-bs-target]').removeClass('active')
 				$('.slide-' + m).addClass('active')
@@ -161,3 +159,33 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
 	updateLoader()
 })
+
+$('#contactformbutton').click(function (e) {
+
+	var formdata = $("#contactform").serializeArray();
+	var bodydatastart = "<ul>";
+	var bodydataend = "</ul>";
+	var bodydata = "";
+
+	formdata.forEach((n,i)=>{
+		bodydata = bodydata + "<li>"+n.name.charAt(0).toUpperCase() + n.name.slice(1) + " : " + n.value+"</li>";
+	})
+
+	Email.send({
+		Host : "smtp.mailtrap.io",
+		Username : "<Mailtrap username>",
+		Password : "<Mailtrap password>",
+		To : '',
+		From : '',
+		Subject : "Newsletter from website",
+		Body : bodydatastart + bodydata + bodydataend
+	}).then((m)=>{
+		$("#warnamessage").text(m);
+		$("#warnamessage").fadeIn();
+		setTimeout(()=>{
+			$("#warnamessage").fadeOut();
+		},15000)
+	});
+
+    return false;
+});
