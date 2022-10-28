@@ -2,8 +2,7 @@
 var p = 0
 function showCount(n) {
 	var count = $('#carouselSlider .carousel-inner .carousel-item').length
-	$('#circle-counting').html(n + '/' + count);
-
+	$('#circle-counting').html(n + '/' + count)
 }
 
 const myCarouselElement = document.querySelector('#carouselSlider')
@@ -27,17 +26,14 @@ window.onload = () => {
 			// console.log(n);
 			if ($(n).hasClass('active')) {
 				m = i + 1
-				$("#carouselSlider-text .carousel-item:nth-child("+m+")").css({"display":"block"});
-				console.log(m);
+				$('#carouselSlider-text .carousel-item:nth-child(' + m + ')').css({ display: 'block' })
+				console.log(m)
 				showCount(m)
 				$('.carousel-indicators [data-bs-target]').removeClass('active')
 				$('.slide-' + m).addClass('active')
-
-
-			}else{
-
+			} else {
 				m = i + 1
-				$("#carouselSlider-text .carousel-item:nth-child("+m+")").css({"display":"none"});
+				$('#carouselSlider-text .carousel-item:nth-child(' + m + ')').css({ display: 'none' })
 			}
 		})
 	}, 100)
