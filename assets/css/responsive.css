@@ -279,7 +279,7 @@
 		padding: 40px 10px;
 	}
 	#our-experience .our-experience-overlay {
-		padding: 40px 10px;
+		padding: 40px 18px;
 		margin-left: 0px;
 	}
 	#contactussection {
@@ -446,7 +446,7 @@
 		padding-bottom: 20px !important;
 	}
 	#hero-section #carouselSlider {
-		height: calc(60vh + 0px);
+		height: calc(50vh + 0px);
 		margin-top: 1px;
 		/* transform: translateY(292px); */
 		border-radius: 3% 0% 0% 50%;
@@ -467,16 +467,16 @@
 	} */
 	#about-section {
 		padding: 30px 20px;
-		margin-top: 200px;
+		margin-top: 240px;
 	}
 	.carousel-numbering {
-		bottom: 271px;
+		bottom: 310px;
 	}
 	.team-member img {
 		width: 100%;
 	}
 	.col-md-7.col-12.overflow-hidden.vh-100.position-relative {
-		transform: translateY(500px);
+		transform: translateY(550px);
 	}
 	.slider-paragraph {
 		font-size: 17px !important;
