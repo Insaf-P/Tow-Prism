@@ -335,7 +335,7 @@
 								<div class="team-member pb-5">
 									<div class="d-flex align-items-center">
 										<div class="col-7">
-											<div class="d-flex align-items-center wow fadeInUp" data-wow-duration="2s">
+											<div class="d-flex align-items-center wow fadeInUp info-box" data-wow-duration="2s">
 												<div class="col-9">
 													<h4 class="heading-3 primary-color">
 														Srinivas A N
@@ -358,17 +358,17 @@
 											</div>
 										</div>
 										<div class="team-member-profile col-5 wow fadeInRight" data-wow-duration="2s">
-											<img src="./assets/images/team-member/srinivas-removebg-preview 1.png" class="img-fluid" />
+											<img src="./assets/images/team-member/srinivas-removebg-preview.png" class="img-fluid" />
 										</div>
 									</div>
 								</div>
 								<div class="team-member">
 									<div class="d-flex align-items-center">
 										<div class="col-5 wow fadeInLeft" data-wow-duration="2s">
-											<img src="./assets/images/team-member/Mahesh-removebg-preview 1.png" class="img-fluid" />
+											<img src="./assets/images/team-member/Mahesh-removebg-preview.png" class="img-fluid" />
 										</div>
-										<div class="col-7">
-											<div class="d-flex align-items-center wow fadeInUp" data-wow-duration="2s">
+										<div class="col-7 manesh">
+											<div class="d-flex align-items-center wow fadeInUp info-box" data-wow-duration="2s">
 												<div class="col-9">
 													<h4 class="heading-3 primary-color">
 														Mahesh G
@@ -401,7 +401,7 @@
 						<h2 class="heading-2 text-center white-color wow fadeInUp" data-wow-duration="1s">Why 2 PRISM</h2>
 						<div class="container pt-5">
 							<div class="row">
-								<div class="col-6">
+								<div class="col-12 col-md-6">
 									<div class="why-prism-points d-flex align-items-center py-4 wow fadeInLeft" data-wow-duration="1s">
 										<div class="col-3 p-4">
 											<img src="./assets/images/icons/time-is-money.svg" class="img-fluid" />
@@ -445,7 +445,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-6">
+								<div class="col-12 col-md-6">
 									<div class="why-prism-points d-flex align-items-center py-4 wow fadeInRight" data-wow-duration="1s">
 										<div class="col-3 p-4">
 											<img src="./assets/images/icons/out-of-the-box-thinking.svg" class="img-fluid" />
@@ -1022,72 +1022,81 @@
 						<div class="row align-items-top">
 							<div class="col-md-5 pt-5 wow fadeInLeft" data-wow-duration="2s">
 								<div class="p-3 mb-5 contact-us-form">
-									<form method="post" id="contactform">
-										<div class="mb-3">
+									<form method="post" id="contactform" class="row">
+										<div class="col-12 mb-3">
 											<label for="InputName" class="form-label">Name</label>
 											<input type="text" class="form-control" id="InputName" name="name" />
 										</div>
-										<div class="mb-3">
+										<div class="col-12 col-md-6 mb-3">
 											<label for="InputOrganizationName" class="form-label">Organization Name</label>
 											<input type="text" class="form-control" id="InputOrganizationName" name="name-organization" />
 										</div>
-										<div class="mb-3">
+										<div class="col-12 col-md-6 mb-3">
 											<label for="InputDesignation" class="form-label">Designation</label>
 											<input type="text" class="form-control" id="InputDesignation" name="designation" />
 										</div>
-										<div class="mb-3">
+										<div class="col-12 col-md-6 mb-3">
 											<label for="InputEmailID" class="form-label">Email ID</label>
 											<input type="email" class="form-control" id="InputEmailID" name="emailid" />
 										</div>
-										<div class="mb-3">
+										<div class="col-12 col-md-6 mb-3">
 											<label for="InputContactNumber" class="form-label">Contact Number</label>
 											<input type="tel" class="form-control" id="InputContactNumber" name="contactnumber" />
 										</div>
-										<div class="mb-3">
+										<div class="col-12 mb-3">
 											<label for="InputDescribeBriefly" class="form-label">Describe Briefly</label>
 											<textarea class="form-control" id="InputDescribeBriefly" name="describe-briefly"></textarea>
 										</div>
 
-										<div class="mb-3 form-check form-check-inline">
-											<input
-												type="checkbox"
-												class="form-check-input"
-												id="Technology"
-												value="Technology"
-												name="technology"
-											/>
-											<label class="form-check-label" for="Technology">Technology</label>
+										<div class="ckeck-list">
+											<div class="col-3 mb-3 form-check form-check-inline">
+												<input
+													type="checkbox"
+													class="form-check-input"
+													id="Technology"
+													value="Technology"
+													name="technology"
+												/>
+												<label class="form-check-label" for="Technology">Technology</label>
+											</div>
+											<div class="col-3 mb-3 form-check form-check-inline">
+												<input
+													type="checkbox"
+													class="form-check-input"
+													id="Training"
+													value="Training"
+													name="training"
+												/>
+												<label class="form-check-label" for="Training">Training</label>
+											</div>
+											<div class="col-3 mb-3 form-check form-check-inline">
+												<input
+													type="checkbox"
+													class="form-check-input"
+													id="Recruitment"
+													value="Recruitment"
+													name="recruitment"
+												/>
+												<label class="form-check-label" for="Recruitment">Recruitment</label>
+											</div>
+											<div class="col-7 mb-3 form-check form-check-inline">
+												<input
+													type="checkbox"
+													class="form-check-input"
+													id="BusinessDevelopmentSales"
+													value="Business Development & Sales"
+													name="businessdevelopmentsales"
+												/>
+												<label class="form-check-label" for="BusinessDevelopmentSales"
+													>Business Development & Sales</label
+												>
+											</div>
+											<div class="col-3 mb-3 form-check form-check-inline">
+												<input type="checkbox" class="form-check-input" id="Others" value="Others" name="others" />
+												<label class="form-check-label" for="Others">Others</label>
+											</div>
 										</div>
-										<div class="mb-3 form-check form-check-inline">
-											<input type="checkbox" class="form-check-input" id="Training" value="Training" name="training" />
-											<label class="form-check-label" for="Training">Training</label>
-										</div>
-										<div class="mb-3 form-check form-check-inline">
-											<input
-												type="checkbox"
-												class="form-check-input"
-												id="Recruitment"
-												value="Recruitment"
-												name="recruitment"
-											/>
-											<label class="form-check-label" for="Recruitment">Recruitment</label>
-										</div>
-										<div class="mb-3 form-check form-check-inline">
-											<input
-												type="checkbox"
-												class="form-check-input"
-												id="BusinessDevelopmentSales"
-												value="Business Development & Sales"
-												name="businessdevelopmentsales"
-											/>
-											<label class="form-check-label" for="BusinessDevelopmentSales"
-												>Business Development & Sales</label
-											>
-										</div>
-										<div class="mb-3 form-check form-check-inline">
-											<input type="checkbox" class="form-check-input" id="Others" value="Others" name="others" />
-											<label class="form-check-label" for="Others">Others</label>
-										</div>
+
 										<div class="mb-3">
 											<button type="button" class="btn third-bg white-color col-12 p-3" id="contactformbutton">
 												Submit

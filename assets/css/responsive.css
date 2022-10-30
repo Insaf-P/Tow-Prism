@@ -27,7 +27,7 @@
 		margin-left: 50px;
 	}
 	#technology-consulting {
-		padding: 40px 60px;
+		padding: 0px 60px;
 	}
 	#business-development-consulting {
 		padding: 40px 60px;
@@ -173,7 +173,7 @@
 		line-height: 46px;
 	}
 	#why-2-prism .why-2-prism-overlay {
-		padding: 30px 10px;
+		padding: 40px 10px;
 		margin-left: 0;
 	}
 	#why-2-prism .why-2-prism-overla .p-4 {
@@ -200,6 +200,7 @@
 	.why-prism-points .p-4 {
 		padding: 0px !important;
 		margin: 0 auto;
+		width: 50px;
 	}
 	.why-prism-points .col-9 {
 		width: 100% !important;
@@ -438,11 +439,14 @@
 	p.content-4.white-color {
 		margin-top: 35px;
 	}
+	footer li.pb-4 {
+		padding: 6px !important;
+	}
 	footer {
 		padding-bottom: 20px !important;
 	}
 	#hero-section #carouselSlider {
-		height: calc(100vh + -216px);
+		height: calc(60vh + 0px);
 		margin-top: 1px;
 		/* transform: translateY(292px); */
 		border-radius: 3% 0% 0% 50%;
@@ -454,8 +458,8 @@
 		display: block !important;
 	}
 	.hero-content-box {
-		transform: translateY(31%);
-		padding: 10px;
+		transform: translateY(35%);
+		padding: 15px;
 		width: 100%;
 	}
 	/* .col-md-6.col-12.overflow-hidden.vh-100.position-relative {
@@ -463,15 +467,15 @@
 	} */
 	#about-section {
 		padding: 30px 20px;
-		margin-top: 345px;
+		margin-top: 200px;
 	}
 	.carousel-numbering {
-		bottom: 192px;
+		bottom: 271px;
 	}
 	.team-member img {
 		width: 100%;
 	}
-	.col-md-6.col-12.overflow-hidden.vh-100.position-relative {
+	.col-md-7.col-12.overflow-hidden.vh-100.position-relative {
 		transform: translateY(500px);
 	}
 	.slider-paragraph {
@@ -481,7 +485,41 @@
 		display: flex;
 	} */
 	#hero-section #carouselSlider img {
-		height: 100% !important;
+		height: 317px !important;
 		border-radius: 0% 0% 0% 44%;
+	}
+	.col-md-5.mt-5.text-center.justify-content-center {
+		margin-top: 0 !important;
+	}
+	.why-prism-points.d-flex.align-items-center.py-4.wow.fadeInRight.animated,
+	.why-prism-points.d-flex.align-items-center.py-4.wow.fadeInLeft.animated {
+		width: 245px;
+		display: block;
+		margin-bottom: 31px !important;
+		margin: auto;
+	}
+	.team-member h4 {
+		font-size: 17px;
+	}
+	.col-7.manesh {
+		margin-left: 0px;
+	}
+	#contactussection .map-section {
+		margin-top: 3px;
+	}
+	.col-md-5.pt-5.wow.fadeInLeft.animated {
+		padding: 0 !important;
+	}
+	.col-md-6.pt-5.d-flex.justify-content-center.align-items-center.flex-column {
+		padding-top: 10px !important;
+	}
+	.row.pt-5 {
+		padding-top: 10px !important;
+	}
+	.col-12.text-center.my-5 {
+		margin: 28px 0px !important;
+	}
+	.team-member.pb-5 {
+		padding-top: 30px;
 	}
 }
