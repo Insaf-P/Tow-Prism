@@ -248,18 +248,19 @@ a.dropdown-item {
 
 #hero-section #carouselSlider {
 	/* border-radius: 50%; */
-	margin-top: -182px;
+	/* margin-top: -182px; */
 	margin-right: -156px;
-	height: calc(100vh + 155px);
+	height: calc(100vh + 0px);
 	width: calc(100% + 156px);
-	border-radius: 19% 52%;
+	border-radius: 0% 0% 0% 55%;
 	overflow: hidden;
 	border-bottom: 30px solid #f4f5f9;
 }
 
 #hero-section #carouselSlider img {
 	/* border-radius: 50%; */
-	height: 100% !important;
+	/* height: 100% !important; */
+	border-radius: 0% 0% 0% 64%;
 }
 
 #hero-section .carousel-indicators {
