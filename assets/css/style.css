@@ -260,14 +260,14 @@ a.dropdown-item {
 #hero-section #carouselSlider img {
 	/* border-radius: 50%; */
 	/* height: 100% !important; */
-	border-radius: 0% 0% 0% 64%;
+	border-radius: 0% 0% 0% 0%;
 	object-fit: cover;
 }
 
 #hero-section .carousel-indicators {
 	left: 0px;
 	transform: rotate(48deg);
-	left: -590px;
+	left: -696px;
 	bottom: 122px;
 }
 
@@ -383,7 +383,7 @@ a.dropdown-item {
 }
 
 .hero-content-box {
-	width: 90%;
+	width: 80%;
 	margin-left: 115px;
 	position: absolute;
 	transform: translateY(-40%);
