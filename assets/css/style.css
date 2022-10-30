@@ -261,6 +261,7 @@ a.dropdown-item {
 	/* border-radius: 50%; */
 	/* height: 100% !important; */
 	border-radius: 0% 0% 0% 64%;
+	object-fit: cover;
 }
 
 #hero-section .carousel-indicators {

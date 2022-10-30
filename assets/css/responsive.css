@@ -442,7 +442,7 @@
 		padding-bottom: 20px !important;
 	}
 	#hero-section #carouselSlider {
-		height: calc(100vh + -168px);
+		height: calc(100vh + -216px);
 		margin-top: 1px;
 		/* transform: translateY(292px); */
 		border-radius: 3% 0% 0% 50%;
@@ -480,4 +480,8 @@
 	/* div#carouselSlider-text {
 		display: flex;
 	} */
+	#hero-section #carouselSlider img {
+		height: 100% !important;
+		border-radius: 0% 0% 0% 44%;
+	}
 }
