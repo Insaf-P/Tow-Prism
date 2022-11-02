@@ -249,12 +249,16 @@ a.dropdown-item {
 #hero-section #carouselSlider {
 	/* border-radius: 50%; */
 	/* margin-top: -182px; */
+	margin-left: 20%;
 	margin-right: -156px;
 	height: calc(100vh + 0px);
 	width: calc(100% + 156px);
-	border-radius: 0% 0% 0% 55%;
+	/* border-radius: 0% 0% 0% 55%; */
 	overflow: hidden;
-	border-bottom: 30px solid #f4f5f9;
+	
+}
+.carouselSlider-div{
+	
 }
 
 #hero-section #carouselSlider img {
@@ -267,7 +271,7 @@ a.dropdown-item {
 #hero-section .carousel-indicators {
 	left: 0px;
 	transform: rotate(48deg);
-	left: -696px;
+	left: -400px;
 	bottom: 122px;
 }
 
@@ -305,7 +309,7 @@ a.dropdown-item {
 	background: transparent;
 	height: 150px;
 	width: 150px;
-	left: -27px;
+	left: 150px;
 	z-index: 1;
 	border-radius: 50%;
 	display: flex;
@@ -384,7 +388,7 @@ a.dropdown-item {
 
 .hero-content-box {
 	width: 80%;
-	margin-left: 115px;
+	margin-left: 130px;
 	position: absolute;
 	transform: translateY(-40%);
 	top: 40%;
